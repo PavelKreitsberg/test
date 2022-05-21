@@ -1,0 +1,75 @@
+// Variables
+$main-text-color: #30444E;
+$accent-color: #EE4248;
+$header-nav-text-color: rgba(31, 46, 53, 0.8);
+
+$main-background-color: #fff;
+$second-background-color: #F7F7F7;
+
+$title-text-color: #1F2E35;
+
+body {
+    font-family: 'Roboto';
+    color: $main-text-color;
+    
+}
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title {
+    color: $title-text-color;
+}
+.title--accent-color {
+    color: $accent-color;
+}
+
+.button {
+    background-color: $accent-color;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border-color: transparent;
+
+    color: $main-background-color;
+
+    margin: 0;
+    padding: 12px 32px;   
+
+    cursor: pointer;
+}
+
+
+.text-section {
+    max-width: 48%;
+}
+
+
